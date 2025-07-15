@@ -3,14 +3,24 @@
 h2 {
     font-size:x-large;
     text-decoration: underline;
+    margin: 10px;
+    padding: 5px;
 }
 
 .destaque {
     font-style: italic;
     background-color: rgb(241, 225, 202);
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid grey
+}
+
+footer {
+    margin: 10px;
+    padding: 5px;
 }
 
 #importante {
 border-top: 20px;
-border: 2px solid rgb(202, 200, 200);
+border: 2px solid grey
 }
