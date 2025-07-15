@@ -3,26 +3,26 @@
 ## 🧩 Exercícios
 
 ### 1. Estrutura HTML Semântica + Estilização com CSS e Box Model
-✅ Uso de tags HTML para organizar o conteúdo da página com semântica apropriada
-✅ Aplicação de `background-color`, `color`, `margin`, `padding`, `border` e outras propriedades nos documentos
+- Uso de tags HTML para organizar o conteúdo da página com semântica apropriada
+- Aplicação de `background-color`, `color`, `margin`, `padding`, `border` e outras propriedades nos documentos
 
 ### 2. Listas e Navegação
-✅ Criação de uma lista não ordenada com hobbies  
-✅ Lista ordenada com passos de uma receita simples  
-✅ Bloco de navegação com três links externos
+- Criação de uma lista não ordenada com hobbies  
+- Lista ordenada com passos de uma receita simples  
+- Bloco de navegação com três links externos
 
 ### Formulário de Feedback  
-✅ Formulário com campos para nome, e-mail, endereço completo, tipo de feedback e campo de mensagem  
-✅ Botão de envio
+- Formulário com campos para nome, e-mail, endereço completo, tipo de feedback e campo de mensagem  
+- Botão de envio
 
 ### Galeria com Grid e Flexbox
-✅ Galeria com 8 imagens e legendas organizadas com CSS Grid  
-✅ Container com Flexbox centralizado e responsivo  
-✅ Media queries para adaptar o layout em telas menores
+- Galeria com 8 imagens e legendas organizadas com CSS Grid  
+- Container com Flexbox centralizado e responsivo  
+- Media queries para adaptar o layout em telas menores
 
 ### Menu Hamburger
-✅ Menu aparece apenas em telas com largura ≤ 600px  
-✅ Substitui a navegação padrão e pode ser aberto/fechado com clique
+- Menu aparece apenas em telas com largura ≤ 600px  
+- Substitui a navegação padrão e pode ser aberto/fechado com clique
 
 ---
 ## 🎯 Objetivos de Aprendizado
