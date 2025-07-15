@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de feedback</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form class="container">
+
+<header>
+    <h2>Formulário de feedback</h2>
+</header>
+
+<div class="div-container">
+    <label>Nome: </label>
+    <input type="text" class="name">
+</div>
+
+<div class="div-container">
+    <label>Email: </label>
+    <input type="email" class="email">
+</div>
+
+<div class="div-container">
+    <label>Endereço completo: </label>
+    <input type="text" class="adress">
+</div>
+
+<div class="input-group">
+    <label>Tipo de feedback:</label>
+ <div class="radio-group">
+    <label for="positive">
+      <input type="radio" value="positive" name="feedback">Positivo  
+      <!-- name não deixa selecionar mais de uma bolinha -->
+    </label>
+    <label for="negative">
+        <input type="radio" value="negative" name="feedback"> Negativo
+    </label>
+    <label for="suggestion">
+        <input type="radio" value="suggestion" name="feedback">Sugestão
+    </label>
+ </div>
+</div>
+
+<div class="input-group">
+    <label>Feedback:</label>
+    <textarea placeholder="Escreva em até 500 caracteres"></textarea>
+</div>
+    
+<button type="submit" class="button">Enviar</button>
+
+</form>
+
+</body>
+</html>

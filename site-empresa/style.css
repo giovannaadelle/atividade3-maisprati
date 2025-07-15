@@ -1,0 +1,16 @@
+
+
+h2 {
+    font-size:x-large;
+    text-decoration: underline;
+}
+
+.destaque {
+    font-style: italic;
+    background-color: rgb(241, 225, 202);
+}
+
+#importante {
+border-top: 20px;
+border: 2px solid rgb(202, 200, 200);
+}

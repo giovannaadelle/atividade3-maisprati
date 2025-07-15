@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  font-family: cambria;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  width: 90%;
+  position: relative;
+}
+
+.header {
+  padding: 15px 0;
+  position: relative;
+}
+
+.header-content {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.logo {
+  width: 60px;
+}
+
+.nav-toggle {
+  position: absolute;
+  left: 0px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rosybrown;
+  padding: 20px 0;
+  z-index: 100;
+}
+
+.nav.active {
+  display: block;
+}
+
+.nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+}
+
+.hero {
+  background-color: lightgrey;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.services container {
+  max-width: 1000px;
+  gap: 10px;
+  border-top: 20px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.cards h3 {
+  color: rosybrown;
+}
+
+.card {
+  border: 1px solid lightgray;
+}
+
+.card:hover {
+  background-color: lightgrey;
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+h1 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-family: 'great vibes';
+  font-weight: normal;
+}
+
+p {
+  text-align: center;
+  padding: 1rem;
+}
+
+.gallery {
+  border: 2px solid rosybrown;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px 
+}
+
+.item {
+  background-color: rosybrown;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: block;
+}
+
+.item:hover {
+  background-color: lightgrey;
+  transition: 0.5s;
+}
+
+@media (max-width: 700px) {
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+}
+
+@media (min-width: 700px) {
+  .header-content {
+    justify-content: space-between; /* Separa logo e nav */
+    position: relative; /* Para posicionamento absoluto do logo */
+  }
+  
+  .logo {
+    position: absolute; /* Tira do fluxo normal */
+    left: 50%; /* Move para o meio */
+    transform: translateX(-50%); /* Ajusta precisamente ao centro */
+  }
+  
+  .nav-toggle {
+    display: none; /* Esconde o botão hamburguer */
+  }
+  
+  .nav {
+    display: block; /* Mostra o menu */
+    position: static; /* Volta ao fluxo normal */
+    width: auto; /* Largura automática */
+    padding: 0; /* Remove padding */
+    margin-right: auto; /* Empurra para a esquerda */
+    background-color: transparent;
+  }
+  
+  .nav ul {
+    flex-direction: row; /* Itens em linha */
+    justify-content: flex-start; /* Alinha à esquerda */
+    gap: 30px; /* Espaço maior entre itens */
+    margin-left: 20px; /* Margem adicional à esquerda */
+  }
+}
+
+.contact {
+  background-color: lightgrey;
+  line-height: 2;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.button {
+  padding: 5px 15px;
+  background-color: rosybrown;
+  border: 1px solid grey;
+  margin-top: 10px;
+}
